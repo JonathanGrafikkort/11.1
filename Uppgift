@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        double[] doubleArray = new double[4];
+        int[] Euro = {5, 10, 20, 50, 100, 200, 500};
+
+        System.out.println("Doubles:");
+        for (double element : doubleArray) {
+            System.out.println(element);
+        }
+
+        System.out.println("\nEuro:");
+        for (int value : Euro) {
+            System.out.println(value);
+        }
+    }
+}
